@@ -54,9 +54,13 @@ app.add_middleware(
 
 import os
 
-frontend_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "frontend")
+# Serve static frontend files from /app/frontend (Railway deployment)
+frontend_path = "/app/frontend"
 if os.path.exists(frontend_path):
     app.mount("/", StaticFiles(directory=frontend_path, html=True), name="frontend")
+elif os.path.exists("../frontend"):
+    # Fallback for local development
+    app.mount("/", StaticFiles(directory="../frontend", html=True), name="frontend")
 
 
 # Request/Response Models
