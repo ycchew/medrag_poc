@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clinic AI Assistant</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    body { font-family: 'Inter', sans-serif; background-color: #111827; color: #f3f4f6; }
+    .animate-pulse-fast { animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+
+    /* Typing indicator animation */
+    @keyframes typing {
+      0%, 100% { opacity: 0.3; transform: translateY(0); }
+      50% { opacity: 1; transform: translateY(-3px); }
+    }
+    .typing-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background-color: #2563eb;
+      border-radius: 50%;
+      margin: 0 2px;
+      animation: typing 1.4s infinite ease-in-out;
+    }
+    .typing-dot:nth-child(1) { animation-delay: 0s; }
+    .typing-dot:nth-child(2) { animation-delay: 0.2s; }
+    .typing-dot:nth-child(3) { animation-delay: 0.4s; }
+
+    /* Markdown styles - Dark Mode */
+    .markdown-content h1, .markdown-content h2, .markdown-content h3 {
+      font-weight: 600;
+      margin: 0.75rem 0 0.5rem;
+      color: #f3f4f6;
+    }
+    .markdown-content h1 { font-size: 1.25rem; }
+    .markdown-content h2 { font-size: 1.125rem; }
+    .markdown-content h3 { font-size: 1rem; }
+    .markdown-content p { margin: 0.5rem 0; line-height: 1.6; color: #d1d5db; }
+    .markdown-content ul, .markdown-content ol {
+      margin: 0.5rem 0;
+      padding-left: 1.5rem;
+    }
+    .markdown-content li { margin: 0.25rem 0; color: #d1d5db; }
+    .markdown-content code {
+      background: #374151;
+      color: #f3f4f6;
+      padding: 0.125rem 0.375rem;
+      border-radius: 0.25rem;
+      font-family: monospace;
+      font-size: 0.875rem;
+    }
+    .markdown-content pre {
+      background: #1f2937;
+      color: #d1d5db;
+      padding: 0.75rem;
+      border-radius: 0.5rem;
+      overflow-x: auto;
+      margin: 0.5rem 0;
+    }
+    .markdown-content blockquote {
+      border-left: 3px solid #3b82f6;
+      padding-left: 0.75rem;
+      margin: 0.5rem 0;
+      color: #9ca3af;
+    }
+    .markdown-content strong { font-weight: 600; color: #f3f4f6; }
+    .markdown-content em { font-style: italic; color: #d1d5db; }
+
+    /* Source chips */
+    .source-chip {
+      transition: all 0.2s;
+    }
+    .source-chip:hover {
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+<body class="bg-gray-900">
+  <!-- Header -->
+  <header class="bg-gray-900 border-b border-gray-900 sticky top-0 z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <h1 class="text-2xl font-bold text-white">Clinic AI Assistant</h1>
+      <p class="text-sm text-gray-400 mt-1">Clinical Knowledge & Patient Data Analytics</p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+
+    <!-- Section 1: Summary Cards -->
+    <section>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="statsCards">
+        <!-- Stats will be loaded here -->
+        <div class="bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-700">
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Total Clinics</h3>
+          <div class="text-3xl font-bold text-blue-400" id="totalClinics">-</div>
+          <p class="text-sm text-gray-500 mt-2">Active clinics</p>
+        </div>
+        <div class="bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-700">
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Patients</h3>
+          <div class="text-3xl font-bold text-blue-400 flex items-baseline gap-2" id="totalPatients">-</div>
+          <p class="text-sm text-gray-500 mt-2">Today / Total</p>
+        </div>
+        <div class="bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-700">
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Visits</h3>
+          <div class="text-3xl font-bold text-blue-400 flex items-baseline gap-2" id="totalVisits">-</div>
+          <p class="text-sm text-gray-500 mt-2">Today / Total</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Charts -->
+    <section>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <!-- Visits by Day Chart -->
+        <div class="bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-700">
+          <h3 class="text-lg font-semibold text-gray-200 mb-4">Visits</h3>
+          <div id="hoursChart" style="width: 100%; height: 350px;"></div>
+        </div>
+        <!-- Top Diseases Chart -->
+        <div class="bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-700">
+          <h3 class="text-lg font-semibold text-gray-200 mb-4">Trending Diseases</h3>
+          <div id="diseasesChart" style="width: 100%; height: 350px;"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Chat UI -->
+    <section class="bg-gray-800 rounded-xl shadow-sm border border-gray-700 overflow-hidden">
+      <div class="p-6 border-b border-gray-900 bg-gray-900">
+        <h2 class="text-lg font-semibold text-gray-200">Ask Clinie</h2>
+        <div class="flex flex-wrap gap-2 mt-3" id="suggestedQuestions">
+          <button onclick="setQuestion('What is the treatment for hypertension?')" class="px-3 py-1.5 text-sm bg-gray-800 text-blue-400 rounded-full hover:bg-gray-600 transition-colors cursor-pointer">What is the treatment for hypertension?</button>
+          <button onclick="setQuestion('How many diabetic patients visited last month?')" class="px-3 py-1.5 text-sm bg-gray-800 text-blue-400 rounded-full hover:bg-gray-600 transition-colors cursor-pointer">How many diabetic patients visited last month?</button>
+          <button onclick="setQuestion('Which clinic has the most dengue cases?')" class="px-3 py-1.5 text-sm bg-gray-800 text-blue-400 rounded-full hover:bg-gray-600 transition-colors cursor-pointer">Which clinic has the most dengue cases?</button>
+        </div>
+      </div>
+
+      <div class="p-6 bg-gray-900 min-h-[300px]" id="chatMessages">
+        <div class="text-center text-gray-500 py-8">
+          <p>Start by asking a question above or type below</p>
+        </div>
+      </div>
+
+      <div class="p-4 border-t border-gray-900 bg-gray-900">
+        <form id="chatForm" class="flex gap-3">
+          <input type="text" id="chatInput" placeholder="Ask Clinie about clinic guidelines or patient data..." class="flex-1 px-4 py-3 bg-gray-800 border border-gray-600 text-white text-base rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none placeholder-gray-400">
+          <button type="submit" id="sendBtn" class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors">Send</button>
+          <button type="button" id="cancelBtn" class="px-4 py-2 bg-gray-600 text-gray-200 rounded-lg hover:bg-gray-500 hidden transition-colors">Cancel</button>
+        </form>
+        <div class="text-xs text-gray-500 mt-2 text-center">
+          <span class="block mt-1 text-grey-500">Clinic AI Assistant can make mistakes. The responses may take up to 60 seconds</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // API Base URL - Local development: direct connection to FastAPI backend
+    // Change this if your backend runs on a different port
+    const API_URL = 'http://localhost:8000';
+
+    // ECharts instances
+    let visitsChartInstance = null;
+    let diseasesChartInstance = null;
+
+    // Abort controller for cancelling requests
+    let currentAbortController = null;
+
+    // Load dashboard data
+    async function loadDashboardData() {
+      try {
+        const response = await fetch(`${API_URL}/dashboard/all`);
+
+        if (response.ok) {
+          const data = await response.json();
+
+          // Update stats
+          const stats = data.stats;
+          document.getElementById('totalClinics').textContent = stats.total_clinics;
+          const patientsToday = stats.today_patients || 0;
+          const patientsTotal = stats.total_patients || 0;
+          document.getElementById('totalPatients').textContent = `${patientsToday} / ${patientsTotal}`;
+          const visitsToday = stats.today_visits || 0;
+          const visitsTotal = stats.total_visits || 0;
+          document.getElementById('totalVisits').textContent = `${visitsToday} / ${visitsTotal}`;
+
+          // Visits by day chart
+          const visitsByDay = data.visits_by_day;
+          const dayOrder = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+          const sortedData = [...visitsByDay].sort((a, b) => dayOrder.indexOf(a.day) - dayOrder.indexOf(b.day));
+
+          const option = {
+            tooltip: { trigger: 'axis' },
+            xAxis: { type: 'category', data: sortedData.map(d => d.day), axisLabel: { color: '#9ca3af' } },
+            yAxis: { type: 'value', min: 0, axisLabel: { color: '#9ca3af' } },
+            grid: { left: '3%', right: '4%', bottom: '15%', top: '10%', containLabel: true },
+            series: [{
+              name: 'Visits',
+              type: 'bar',
+              data: sortedData.map(d => d.count),
+              itemStyle: { color: '#2563eb' }
+            }]
+          };
+
+          if (visitsChartInstance) visitsChartInstance.dispose();
+          visitsChartInstance = echarts.init(document.getElementById('hoursChart'));
+          visitsChartInstance.setOption(option);
+
+          // Trending diseases chart
+          const trending = data.trending_diseases;
+          const days = trending.days;
+          const diseases = trending.diseases;
+          const diseaseData = trending.data;
+
+          const diseaseOption = {
+            tooltip: { trigger: 'axis' },
+            legend: { data: diseases, textStyle: { color: '#9ca3af' }, bottom: 0 },
+            xAxis: { type: 'category', data: days, axisLabel: { color: '#9ca3af' } },
+            yAxis: { type: 'value', min: 0, axisLabel: { color: '#9ca3af' } },
+            grid: { left: '3%', right: '4%', bottom: '15%', top: '10%', containLabel: true },
+            series: diseases.map((disease, i) => ({
+              name: disease,
+              type: 'line',
+              smooth: true,
+              data: days.map(day => diseaseData[day]?.[disease] || 0),
+              lineStyle: { width: 2 },
+              itemStyle: { color: ['#2563eb', '#10b981', '#f59e0b'][i] },
+              symbolSize: 6
+            }))
+          };
+
+          if (diseasesChartInstance) diseasesChartInstance.dispose();
+          diseasesChartInstance = echarts.init(document.getElementById('diseasesChart'));
+          diseasesChartInstance.setOption(diseaseOption);
+        }
+      } catch (err) {
+        console.error('Failed to load dashboard data:', err);
+        document.querySelectorAll('.text-blue-600').forEach(el => {
+          if (el.textContent === '-') el.textContent = 'N/A';
+        });
+      }
+    }
+
+    // Chat functionality
+    let messages = [];
+    const chatMessages = document.getElementById('chatMessages');
+    const chatForm = document.getElementById('chatForm');
+    const chatInput = document.getElementById('chatInput');
+    const cancelBtn = document.getElementById('cancelBtn');
+    const sendBtn = document.getElementById('sendBtn');
+
+    function addMessage(user, text, type, sourceChunks = null) {
+      const msgDiv = document.createElement('div');
+      const isUser = user === 'You';
+
+      if (isUser) {
+        // User message - right aligned, 50% width, no icon, no label
+        msgDiv.className = 'flex justify-end';
+        msgDiv.innerHTML = `
+          <div class="w-1/2">
+            <div class="p-3 rounded-lg bg-gray-800 border border-gray-600">
+              <div class="text-gray-200 text-base text-left">${text}</div>
+            </div>
+          </div>
+        `;
+      } else {
+        // AI message - no background, "C" icon on left, content to the right
+        const isMarkdown = (type === 'DOCUMENT_QUERY' || type === 'SQL_QUERY') && text;
+        const renderedText = isMarkdown ? marked.parse(text) : text;
+
+        let sourcesHtml = '';
+        if (sourceChunks && sourceChunks.length > 0) {
+          const sourcesList = sourceChunks.map((chunk, i) => `
+            <div class="source-chip border border-gray-600 rounded-lg p-2 mb-2 cursor-pointer hover:bg-gray-800" onclick="toggleSource(${i})">
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-medium text-blue-400">${chunk.document_name}</span>
+                <span class="text-xs text-gray-400">(${chunk.similarity} similarity)</span>
+                <span class="text-xs text-gray-400 ml-auto">▼</span>
+              </div>
+              <div id="source-content-${i}" class="hidden mt-2 text-xs text-gray-300 border-t border-gray-700 pt-2">
+                <p class="line-clamp-3">${chunk.content}</p>
+                <p class="text-gray-500 mt-1">From: ${chunk.source_file}</p>
+              </div>
+            </div>
+          `).join('');
+
+          sourcesHtml = `
+            <div class="mt-4 pt-3 border-t border-gray-700">
+              <p class="text-xs text-gray-400 mb-2 font-medium">📚 Sources (${sourceChunks.length} documents)</p>
+              <div class="max-h-40 overflow-y-auto">
+                ${sourcesList}
+              </div>
+            </div>
+          `;
+        }
+
+        // Determine text color based on success/failure
+        const textColor = type === 'UNKNOWN' ? 'text-red-400' : 'text-gray-300';
+
+        msgDiv.className = 'flex gap-3 items-start mb-4';
+        msgDiv.innerHTML = `
+          <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 bg-blue-500">
+            <span class="text-white text-sm font-bold">C</span>
+          </div>
+          <div class="flex-1 pt-1">
+            <div class="markdown-content ${textColor} text-base">${renderedText}</div>
+            ${sourcesHtml}
+          </div>
+        `;
+      }
+      chatMessages.appendChild(msgDiv);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    function addTypingIndicator(question) {
+      const msgDiv = document.createElement('div');
+      msgDiv.id = 'typing-indicator';
+      msgDiv.className = 'flex gap-3 items-start';
+      msgDiv.innerHTML = `
+        <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 bg-blue-500">
+          <span class="text-white text-sm font-bold">C</span>
+        </div>
+        <div class="flex-1 pt-1">
+          <div class="text-gray-300 text-sm">
+            <span id="progress-step">Analyzing your question...</span>
+            <span class="typing-dot"></span>
+            <span class="typing-dot"></span>
+            <span class="typing-dot"></span>
+          </div>
+        </div>
+      `;
+      chatMessages.appendChild(msgDiv);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+      return msgDiv;
+    }
+
+    function updateProgressStep(step) {
+      const stepEl = document.getElementById('progress-step');
+      if (stepEl) {
+        stepEl.textContent = step;
+      }
+    }
+
+    function removeTypingIndicator() {
+      const indicator = document.getElementById('typing-indicator');
+      if (indicator) {
+        indicator.remove();
+      }
+    }
+
+    function toggleSource(index) {
+      const content = document.getElementById(`source-content-${index}`);
+      if (content) {
+        content.classList.toggle('hidden');
+      }
+    }
+
+    function setQuestion(q) {
+      chatInput.value = q;
+    }
+
+    function cancelRequest() {
+      if (currentAbortController) {
+        currentAbortController.abort();
+        currentAbortController = null;
+      }
+      removeTypingIndicator();
+      sendBtn.disabled = false;
+      cancelBtn.classList.add('hidden');
+      addMessage('AI', 'Request cancelled by user.', 'UNKNOWN');
+    }
+
+    async function handleChat(e) {
+      e.preventDefault();
+      const question = chatInput.value.trim();
+      if (!question) return;
+
+      // Cancel any existing request
+      if (currentAbortController) {
+        currentAbortController.abort();
+      }
+      currentAbortController = new AbortController();
+
+      const userMsgId = Date.now();
+      messages.push({ id: userMsgId, question, type: 'loading' });
+      addMessage('You', question, 'UNKNOWN');
+
+      chatInput.value = '';
+      sendBtn.disabled = true;
+      cancelBtn.classList.remove('hidden');
+
+      // Add typing indicator with progress
+      addTypingIndicator(question);
+
+      // Simulate progress steps
+      const steps = [
+        'Classifying query...',
+        'Searching vector database...',
+        'Generating response with Cloud LLM...'
+      ];
+      let stepIndex = 0;
+      const progressInterval = setInterval(() => {
+        if (stepIndex < steps.length) {
+          updateProgressStep(steps[stepIndex]);
+          stepIndex++;
+        }
+      }, 2000);
+
+      try {
+        const response = await fetch(`${API_URL}/chat`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ question, session_id: 'demo-session' }),
+          signal: currentAbortController.signal
+        });
+
+        clearInterval(progressInterval);
+        removeTypingIndicator();
+
+        if (response.ok) {
+          const data = await response.json();
+          addMessage('AI', data.response, data.classification, data.source_chunks);
+        } else {
+          addMessage('AI', 'Sorry, I encountered an error processing your query.', 'UNKNOWN');
+        }
+      } catch (err) {
+        clearInterval(progressInterval);
+        removeTypingIndicator();
+        if (err.name === 'AbortError') {
+          // Request was cancelled, message already shown
+        } else {
+          addMessage('AI', 'Could not connect to server. Check if backend is running on port 8000.', 'UNKNOWN');
+        }
+      } finally {
+        currentAbortController = null;
+        sendBtn.disabled = false;
+        cancelBtn.classList.add('hidden');
+      }
+    }
+
+    // Initialize
+    document.addEventListener('DOMContentLoaded', () => {
+      loadDashboardData();
+      chatForm.addEventListener('submit', handleChat);
+      cancelBtn.addEventListener('click', cancelRequest);
+    });
+  </script>
+</body>
+</html>

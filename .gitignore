@@ -1,0 +1,59 @@
+# Database
+data/postgres/
+
+# Environment variables (keep secrets out of repo)
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+*.egg
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Docker
+*.env.docker
+
+# Temp files
+*.tmp
+*.temp
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3

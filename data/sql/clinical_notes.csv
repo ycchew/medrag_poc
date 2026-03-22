@@ -1,0 +1,3601 @@
+note_id,visit_id,diagnosis,clinical_note
+30672,25651,Dengue fever,"Subjective:
+Patient reports high fever, muscle pain for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected dengue fever.
+
+Assessment:
+Diagnosis: Dengue fever
+
+Plan:
+Prescribe dengue fever treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+32832,27423,Back pain,"Subjective:
+Patient reports stiffness, lower back pain for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+28962,24217,Back pain,"Subjective:
+Patient reports lower back pain, stiffness for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+5153,4312,Upper respiratory infection,"Subjective:
+Patient reports cough, sore throat for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+3099,2587,Type 2 Diabetes,"Subjective:
+Patient reports increased thirst, frequent urination for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+25179,21014,Upper respiratory infection,"Subjective:
+Patient reports sore throat, runny nose for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+22731,18956,Upper respiratory infection,"Subjective:
+Patient reports sore throat, runny nose for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+25068,20925,Hypertension,"Subjective:
+Patient reports headache, blurred vision for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+26434,22075,Flu,"Subjective:
+Patient reports body aches, fatigue for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+37727,31508,UTI,"Subjective:
+Patient reports frequent urination, burning urination for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected uti.
+
+Assessment:
+Diagnosis: UTI
+
+Plan:
+Prescribe uti treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+46343,38698,Hypertension,"Subjective:
+Patient reports headache, blurred vision for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+27319,22811,Hypertension,"Subjective:
+Patient reports headache, dizziness for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+31548,26362,Type 2 Diabetes,"Subjective:
+Patient reports frequent urination, increased thirst for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+13087,10943,Upper respiratory infection,"Subjective:
+Patient reports runny nose, sore throat for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+4058,3388,Hypertension,"Subjective:
+Patient reports blurred vision, dizziness for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+52138,43540,GERD,"Subjective:
+Patient reports heartburn, acid reflux for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected gerd.
+
+Assessment:
+Diagnosis: GERD
+
+Plan:
+Prescribe gerd treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+9263,7756,Upper respiratory infection,"Subjective:
+Patient reports runny nose, sore throat for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+55747,46512,Upper respiratory infection,"Subjective:
+Patient reports cough, sore throat for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+44261,36945,Flu,"Subjective:
+Patient reports body aches, fever for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+56232,46915,Type 2 Diabetes,"Subjective:
+Patient reports increased thirst, fatigue for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+12354,10341,Upper respiratory infection,"Subjective:
+Patient reports cough, runny nose for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+24433,20390,Asthma,"Subjective:
+Patient reports shortness of breath, chest tightness for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+59588,49715,Back pain,"Subjective:
+Patient reports stiffness, lower back pain for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+29863,24971,Flu,"Subjective:
+Patient reports fever, fatigue for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+12932,10815,UTI,"Subjective:
+Patient reports pelvic pain, frequent urination for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected uti.
+
+Assessment:
+Diagnosis: UTI
+
+Plan:
+Prescribe uti treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+32134,26852,Asthma,"Subjective:
+Patient reports shortness of breath, wheezing for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+52884,44151,Flu,"Subjective:
+Patient reports fatigue, fever for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+40144,33527,Back pain,"Subjective:
+Patient reports lower back pain, stiffness for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+49639,41463,Flu,"Subjective:
+Patient reports fatigue, fever for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+29790,24911,UTI,"Subjective:
+Patient reports pelvic pain, frequent urination for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected uti.
+
+Assessment:
+Diagnosis: UTI
+
+Plan:
+Prescribe uti treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+50118,41865,Upper respiratory infection,"Subjective:
+Patient reports runny nose, cough for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+12907,10794,Hypertension,"Subjective:
+Patient reports dizziness, headache for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+40296,33650,Upper respiratory infection,"Subjective:
+Patient reports runny nose, cough for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+45057,37605,Type 2 Diabetes,"Subjective:
+Patient reports fatigue, frequent urination for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+42650,35610,Back pain,"Subjective:
+Patient reports lower back pain, stiffness for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+38120,31844,Flu,"Subjective:
+Patient reports fever, fatigue for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+37062,30947,GERD,"Subjective:
+Patient reports acid reflux, heartburn for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected gerd.
+
+Assessment:
+Diagnosis: GERD
+
+Plan:
+Prescribe gerd treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+32784,27387,Upper respiratory infection,"Subjective:
+Patient reports runny nose, sore throat for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+37669,31462,Dengue fever,"Subjective:
+Patient reports joint pain, muscle pain for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected dengue fever.
+
+Assessment:
+Diagnosis: Dengue fever
+
+Plan:
+Prescribe dengue fever treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+19100,15925,Hypertension,"Subjective:
+Patient reports dizziness, headache for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+37934,31683,Flu,"Subjective:
+Patient reports fever, body aches for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+37232,31088,Type 2 Diabetes,"Subjective:
+Patient reports frequent urination, increased thirst for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+10174,8521,Upper respiratory infection,"Subjective:
+Patient reports runny nose, sore throat for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+25172,21008,Hypertension,"Subjective:
+Patient reports dizziness, blurred vision for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+56173,46864,Type 2 Diabetes,"Subjective:
+Patient reports increased thirst, fatigue for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+52676,43984,Type 2 Diabetes,"Subjective:
+Patient reports frequent urination, increased thirst for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+55481,46288,Upper respiratory infection,"Subjective:
+Patient reports sore throat, cough for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+6216,5187,Flu,"Subjective:
+Patient reports fever, fatigue for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+45247,37768,Upper respiratory infection,"Subjective:
+Patient reports runny nose, cough for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+18189,15177,Asthma,"Subjective:
+Patient reports wheezing, shortness of breath for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+26758,22347,Hypertension,"Subjective:
+Patient reports blurred vision, dizziness for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+28993,24243,Flu,"Subjective:
+Patient reports fatigue, body aches for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+34317,28649,Upper respiratory infection,"Subjective:
+Patient reports runny nose, cough for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+16205,13537,Back pain,"Subjective:
+Patient reports stiffness, lower back pain for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+3671,3063,Flu,"Subjective:
+Patient reports fatigue, body aches for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+12645,10576,Hypertension,"Subjective:
+Patient reports blurred vision, dizziness for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+17731,14799,Asthma,"Subjective:
+Patient reports chest tightness, wheezing for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+6045,5045,Asthma,"Subjective:
+Patient reports wheezing, shortness of breath for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+51662,43159,Flu,"Subjective:
+Patient reports fever, fatigue for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+26647,22257,Hypertension,"Subjective:
+Patient reports headache, dizziness for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+17754,14818,Back pain,"Subjective:
+Patient reports stiffness, lower back pain for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+22613,18852,Upper respiratory infection,"Subjective:
+Patient reports sore throat, cough for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+22792,19010,UTI,"Subjective:
+Patient reports burning urination, pelvic pain for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected uti.
+
+Assessment:
+Diagnosis: UTI
+
+Plan:
+Prescribe uti treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+46288,38653,Upper respiratory infection,"Subjective:
+Patient reports runny nose, cough for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+37081,30966,Type 2 Diabetes,"Subjective:
+Patient reports fatigue, increased thirst for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+36984,30882,Hypertension,"Subjective:
+Patient reports blurred vision, headache for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+21362,17802,Upper respiratory infection,"Subjective:
+Patient reports runny nose, cough for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+11194,9381,Asthma,"Subjective:
+Patient reports wheezing, chest tightness for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+18817,15683,Hypertension,"Subjective:
+Patient reports headache, blurred vision for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+20634,17198,Upper respiratory infection,"Subjective:
+Patient reports sore throat, runny nose for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+32057,26789,Upper respiratory infection,"Subjective:
+Patient reports cough, runny nose for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+24697,20613,Asthma,"Subjective:
+Patient reports shortness of breath, chest tightness for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+45391,37893,GERD,"Subjective:
+Patient reports heartburn, acid reflux for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected gerd.
+
+Assessment:
+Diagnosis: GERD
+
+Plan:
+Prescribe gerd treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+41676,34810,UTI,"Subjective:
+Patient reports pelvic pain, burning urination for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected uti.
+
+Assessment:
+Diagnosis: UTI
+
+Plan:
+Prescribe uti treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+56834,47425,Hypertension,"Subjective:
+Patient reports headache, blurred vision for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+6426,5365,Upper respiratory infection,"Subjective:
+Patient reports sore throat, runny nose for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+7048,5888,UTI,"Subjective:
+Patient reports pelvic pain, burning urination for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected uti.
+
+Assessment:
+Diagnosis: UTI
+
+Plan:
+Prescribe uti treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+1263,1046,Upper respiratory infection,"Subjective:
+Patient reports runny nose, sore throat for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+39839,33283,Upper respiratory infection,"Subjective:
+Patient reports cough, sore throat for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+49766,41567,Hypertension,"Subjective:
+Patient reports headache, blurred vision for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+9688,8108,Flu,"Subjective:
+Patient reports fever, fatigue for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+36982,30881,Hypertension,"Subjective:
+Patient reports blurred vision, headache for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+27742,23179,Hypertension,"Subjective:
+Patient reports dizziness, blurred vision for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+18836,15700,Type 2 Diabetes,"Subjective:
+Patient reports increased thirst, fatigue for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+5871,4897,Flu,"Subjective:
+Patient reports fatigue, body aches for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+45959,38376,Back pain,"Subjective:
+Patient reports stiffness, lower back pain for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+36302,30317,Dengue fever,"Subjective:
+Patient reports muscle pain, high fever for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected dengue fever.
+
+Assessment:
+Diagnosis: Dengue fever
+
+Plan:
+Prescribe dengue fever treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+48294,40335,Upper respiratory infection,"Subjective:
+Patient reports cough, runny nose for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+5283,4421,GERD,"Subjective:
+Patient reports acid reflux, heartburn for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected gerd.
+
+Assessment:
+Diagnosis: GERD
+
+Plan:
+Prescribe gerd treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+2594,2166,GERD,"Subjective:
+Patient reports acid reflux, heartburn for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected gerd.
+
+Assessment:
+Diagnosis: GERD
+
+Plan:
+Prescribe gerd treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+32018,26758,Hypertension,"Subjective:
+Patient reports blurred vision, dizziness for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+32277,26965,Upper respiratory infection,"Subjective:
+Patient reports sore throat, cough for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+33516,27988,Type 2 Diabetes,"Subjective:
+Patient reports frequent urination, increased thirst for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+49579,41412,Dengue fever,"Subjective:
+Patient reports joint pain, muscle pain for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected dengue fever.
+
+Assessment:
+Diagnosis: Dengue fever
+
+Plan:
+Prescribe dengue fever treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+47313,39516,Upper respiratory infection,"Subjective:
+Patient reports cough, runny nose for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+2639,2203,Type 2 Diabetes,"Subjective:
+Patient reports frequent urination, fatigue for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+40832,34105,Asthma,"Subjective:
+Patient reports chest tightness, wheezing for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+25293,21114,Upper respiratory infection,"Subjective:
+Patient reports cough, runny nose for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+56430,47085,Type 2 Diabetes,"Subjective:
+Patient reports increased thirst, frequent urination for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+26282,21949,Upper respiratory infection,"Subjective:
+Patient reports cough, sore throat for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+1048,866,Hypertension,"Subjective:
+Patient reports blurred vision, headache for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+53427,44598,Asthma,"Subjective:
+Patient reports wheezing, shortness of breath for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+12480,10444,Hypertension,"Subjective:
+Patient reports blurred vision, dizziness for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+33499,27975,Type 2 Diabetes,"Subjective:
+Patient reports increased thirst, fatigue for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+21811,18174,Type 2 Diabetes,"Subjective:
+Patient reports frequent urination, increased thirst for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+42560,35530,Upper respiratory infection,"Subjective:
+Patient reports runny nose, sore throat for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+51210,42778,Hypertension,"Subjective:
+Patient reports headache, dizziness for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+39229,32778,UTI,"Subjective:
+Patient reports burning urination, pelvic pain for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected uti.
+
+Assessment:
+Diagnosis: UTI
+
+Plan:
+Prescribe uti treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+48691,40652,GERD,"Subjective:
+Patient reports chest discomfort, heartburn for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected gerd.
+
+Assessment:
+Diagnosis: GERD
+
+Plan:
+Prescribe gerd treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+22745,18969,Back pain,"Subjective:
+Patient reports stiffness, lower back pain for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+49324,41197,Back pain,"Subjective:
+Patient reports stiffness, lower back pain for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+41946,35034,Hypertension,"Subjective:
+Patient reports blurred vision, headache for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+20214,16859,Upper respiratory infection,"Subjective:
+Patient reports runny nose, cough for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+31539,26356,Type 2 Diabetes,"Subjective:
+Patient reports fatigue, increased thirst for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+49574,41408,Upper respiratory infection,"Subjective:
+Patient reports cough, runny nose for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+28381,23721,Hypertension,"Subjective:
+Patient reports headache, dizziness for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+924,760,Upper respiratory infection,"Subjective:
+Patient reports cough, sore throat for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+57419,47908,Upper respiratory infection,"Subjective:
+Patient reports runny nose, cough for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+48860,40795,Asthma,"Subjective:
+Patient reports shortness of breath, chest tightness for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+17741,14808,GERD,"Subjective:
+Patient reports heartburn, chest discomfort for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected gerd.
+
+Assessment:
+Diagnosis: GERD
+
+Plan:
+Prescribe gerd treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+22102,18415,Asthma,"Subjective:
+Patient reports chest tightness, shortness of breath for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+39193,32745,Type 2 Diabetes,"Subjective:
+Patient reports fatigue, increased thirst for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+49345,41213,GERD,"Subjective:
+Patient reports chest discomfort, heartburn for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected gerd.
+
+Assessment:
+Diagnosis: GERD
+
+Plan:
+Prescribe gerd treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+15938,13317,Back pain,"Subjective:
+Patient reports stiffness, lower back pain for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+37571,31378,Upper respiratory infection,"Subjective:
+Patient reports runny nose, cough for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+53226,44432,Hypertension,"Subjective:
+Patient reports blurred vision, headache for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+47087,39326,Upper respiratory infection,"Subjective:
+Patient reports runny nose, cough for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+8903,7438,Upper respiratory infection,"Subjective:
+Patient reports sore throat, runny nose for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+33942,28343,Hypertension,"Subjective:
+Patient reports headache, blurred vision for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+39385,32907,GERD,"Subjective:
+Patient reports chest discomfort, acid reflux for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected gerd.
+
+Assessment:
+Diagnosis: GERD
+
+Plan:
+Prescribe gerd treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+9800,8204,Asthma,"Subjective:
+Patient reports shortness of breath, chest tightness for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+35870,29948,UTI,"Subjective:
+Patient reports burning urination, pelvic pain for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected uti.
+
+Assessment:
+Diagnosis: UTI
+
+Plan:
+Prescribe uti treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+44155,36859,Hypertension,"Subjective:
+Patient reports dizziness, headache for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+49296,41174,Upper respiratory infection,"Subjective:
+Patient reports cough, runny nose for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+4733,3952,Dengue fever,"Subjective:
+Patient reports high fever, joint pain for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected dengue fever.
+
+Assessment:
+Diagnosis: Dengue fever
+
+Plan:
+Prescribe dengue fever treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+42639,35600,Dengue fever,"Subjective:
+Patient reports muscle pain, joint pain for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected dengue fever.
+
+Assessment:
+Diagnosis: Dengue fever
+
+Plan:
+Prescribe dengue fever treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+36647,30605,Hypertension,"Subjective:
+Patient reports headache, dizziness for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+1738,1448,Hypertension,"Subjective:
+Patient reports blurred vision, headache for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+4152,3466,Hypertension,"Subjective:
+Patient reports dizziness, blurred vision for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+2024,1689,Upper respiratory infection,"Subjective:
+Patient reports cough, sore throat for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+13166,11004,Upper respiratory infection,"Subjective:
+Patient reports cough, sore throat for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+17640,14720,Upper respiratory infection,"Subjective:
+Patient reports sore throat, runny nose for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+19955,16644,Upper respiratory infection,"Subjective:
+Patient reports sore throat, cough for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+21113,17588,Type 2 Diabetes,"Subjective:
+Patient reports frequent urination, increased thirst for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+43779,36545,Type 2 Diabetes,"Subjective:
+Patient reports increased thirst, fatigue for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+655,542,GERD,"Subjective:
+Patient reports acid reflux, chest discomfort for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected gerd.
+
+Assessment:
+Diagnosis: GERD
+
+Plan:
+Prescribe gerd treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+241,201,Hypertension,"Subjective:
+Patient reports dizziness, headache for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+52029,43454,Type 2 Diabetes,"Subjective:
+Patient reports frequent urination, fatigue for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+25049,20909,Back pain,"Subjective:
+Patient reports stiffness, lower back pain for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+31584,26391,Flu,"Subjective:
+Patient reports fatigue, body aches for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+28343,23688,Hypertension,"Subjective:
+Patient reports headache, blurred vision for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+7718,6456,Type 2 Diabetes,"Subjective:
+Patient reports frequent urination, fatigue for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+37134,31007,Hypertension,"Subjective:
+Patient reports headache, dizziness for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+29455,24628,Back pain,"Subjective:
+Patient reports lower back pain, stiffness for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+14053,11742,Upper respiratory infection,"Subjective:
+Patient reports sore throat, runny nose for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+14710,12295,Asthma,"Subjective:
+Patient reports chest tightness, shortness of breath for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+52717,44016,Upper respiratory infection,"Subjective:
+Patient reports runny nose, cough for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+15279,12766,Type 2 Diabetes,"Subjective:
+Patient reports frequent urination, fatigue for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+22060,18381,Type 2 Diabetes,"Subjective:
+Patient reports increased thirst, fatigue for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+18375,15327,Back pain,"Subjective:
+Patient reports stiffness, lower back pain for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+44058,36779,Type 2 Diabetes,"Subjective:
+Patient reports fatigue, increased thirst for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+35940,30011,Hypertension,"Subjective:
+Patient reports headache, blurred vision for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+27474,22949,UTI,"Subjective:
+Patient reports burning urination, frequent urination for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected uti.
+
+Assessment:
+Diagnosis: UTI
+
+Plan:
+Prescribe uti treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+17703,14775,Upper respiratory infection,"Subjective:
+Patient reports cough, sore throat for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+12400,10375,GERD,"Subjective:
+Patient reports acid reflux, chest discomfort for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected gerd.
+
+Assessment:
+Diagnosis: GERD
+
+Plan:
+Prescribe gerd treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+41158,34376,Upper respiratory infection,"Subjective:
+Patient reports cough, sore throat for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+12762,10672,Upper respiratory infection,"Subjective:
+Patient reports runny nose, sore throat for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+22934,19131,Asthma,"Subjective:
+Patient reports chest tightness, wheezing for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+35634,29751,UTI,"Subjective:
+Patient reports burning urination, frequent urination for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected uti.
+
+Assessment:
+Diagnosis: UTI
+
+Plan:
+Prescribe uti treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+21868,18222,Hypertension,"Subjective:
+Patient reports dizziness, blurred vision for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+35604,29727,Upper respiratory infection,"Subjective:
+Patient reports runny nose, cough for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+31399,26245,Hypertension,"Subjective:
+Patient reports blurred vision, dizziness for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+33943,28344,Asthma,"Subjective:
+Patient reports shortness of breath, chest tightness for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+42131,35185,Asthma,"Subjective:
+Patient reports shortness of breath, wheezing for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+25835,21573,Upper respiratory infection,"Subjective:
+Patient reports cough, runny nose for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+2545,2125,Hypertension,"Subjective:
+Patient reports blurred vision, headache for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+17045,14229,GERD,"Subjective:
+Patient reports chest discomfort, acid reflux for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected gerd.
+
+Assessment:
+Diagnosis: GERD
+
+Plan:
+Prescribe gerd treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+51932,43378,Back pain,"Subjective:
+Patient reports stiffness, lower back pain for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+55714,46483,Upper respiratory infection,"Subjective:
+Patient reports runny nose, cough for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+841,690,Flu,"Subjective:
+Patient reports fatigue, fever for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+35085,29299,Flu,"Subjective:
+Patient reports fever, fatigue for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+998,824,Hypertension,"Subjective:
+Patient reports blurred vision, dizziness for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+8110,6782,Hypertension,"Subjective:
+Patient reports blurred vision, headache for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+49651,41473,Hypertension,"Subjective:
+Patient reports headache, dizziness for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+14418,12053,GERD,"Subjective:
+Patient reports chest discomfort, acid reflux for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected gerd.
+
+Assessment:
+Diagnosis: GERD
+
+Plan:
+Prescribe gerd treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+41399,34576,Hypertension,"Subjective:
+Patient reports dizziness, blurred vision for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+23245,19391,Upper respiratory infection,"Subjective:
+Patient reports cough, runny nose for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+37421,31248,Asthma,"Subjective:
+Patient reports wheezing, chest tightness for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+47871,39977,Flu,"Subjective:
+Patient reports fever, fatigue for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+34550,28841,Back pain,"Subjective:
+Patient reports stiffness, lower back pain for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+6177,5155,Hypertension,"Subjective:
+Patient reports dizziness, blurred vision for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+24171,20167,Hypertension,"Subjective:
+Patient reports blurred vision, dizziness for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+59077,49297,UTI,"Subjective:
+Patient reports burning urination, pelvic pain for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected uti.
+
+Assessment:
+Diagnosis: UTI
+
+Plan:
+Prescribe uti treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+18871,15727,Hypertension,"Subjective:
+Patient reports dizziness, headache for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+35490,29634,GERD,"Subjective:
+Patient reports acid reflux, chest discomfort for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected gerd.
+
+Assessment:
+Diagnosis: GERD
+
+Plan:
+Prescribe gerd treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+23846,19898,Type 2 Diabetes,"Subjective:
+Patient reports fatigue, increased thirst for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+37744,31522,Type 2 Diabetes,"Subjective:
+Patient reports fatigue, increased thirst for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+55786,46545,Upper respiratory infection,"Subjective:
+Patient reports runny nose, cough for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+52576,43902,GERD,"Subjective:
+Patient reports heartburn, acid reflux for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected gerd.
+
+Assessment:
+Diagnosis: GERD
+
+Plan:
+Prescribe gerd treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+1367,1141,GERD,"Subjective:
+Patient reports acid reflux, heartburn for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected gerd.
+
+Assessment:
+Diagnosis: GERD
+
+Plan:
+Prescribe gerd treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+27971,23374,Flu,"Subjective:
+Patient reports fever, fatigue for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+49648,41470,Upper respiratory infection,"Subjective:
+Patient reports runny nose, sore throat for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+30210,25261,UTI,"Subjective:
+Patient reports pelvic pain, frequent urination for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected uti.
+
+Assessment:
+Diagnosis: UTI
+
+Plan:
+Prescribe uti treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+37251,31103,Upper respiratory infection,"Subjective:
+Patient reports sore throat, runny nose for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+52628,43945,Asthma,"Subjective:
+Patient reports wheezing, chest tightness for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+10709,8971,Asthma,"Subjective:
+Patient reports chest tightness, wheezing for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+54118,45163,Hypertension,"Subjective:
+Patient reports blurred vision, headache for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+1502,1255,GERD,"Subjective:
+Patient reports acid reflux, chest discomfort for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected gerd.
+
+Assessment:
+Diagnosis: GERD
+
+Plan:
+Prescribe gerd treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+10476,8779,Upper respiratory infection,"Subjective:
+Patient reports sore throat, cough for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+1499,1253,Upper respiratory infection,"Subjective:
+Patient reports sore throat, runny nose for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+47194,39417,Upper respiratory infection,"Subjective:
+Patient reports cough, runny nose for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+24074,20081,Hypertension,"Subjective:
+Patient reports blurred vision, headache for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+1765,1468,Upper respiratory infection,"Subjective:
+Patient reports sore throat, runny nose for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+49479,41327,Type 2 Diabetes,"Subjective:
+Patient reports increased thirst, fatigue for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+49301,41178,UTI,"Subjective:
+Patient reports burning urination, pelvic pain for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected uti.
+
+Assessment:
+Diagnosis: UTI
+
+Plan:
+Prescribe uti treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+17626,14708,Type 2 Diabetes,"Subjective:
+Patient reports frequent urination, fatigue for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+27406,22890,Upper respiratory infection,"Subjective:
+Patient reports sore throat, cough for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+17730,14798,Upper respiratory infection,"Subjective:
+Patient reports runny nose, sore throat for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+27216,22722,Back pain,"Subjective:
+Patient reports lower back pain, stiffness for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+26632,22244,Back pain,"Subjective:
+Patient reports lower back pain, stiffness for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+42447,35436,Asthma,"Subjective:
+Patient reports chest tightness, shortness of breath for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+33007,27569,Back pain,"Subjective:
+Patient reports stiffness, lower back pain for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+54353,45362,GERD,"Subjective:
+Patient reports heartburn, acid reflux for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected gerd.
+
+Assessment:
+Diagnosis: GERD
+
+Plan:
+Prescribe gerd treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+27338,22830,Asthma,"Subjective:
+Patient reports shortness of breath, wheezing for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+17461,14573,Asthma,"Subjective:
+Patient reports shortness of breath, wheezing for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+52652,43964,Asthma,"Subjective:
+Patient reports wheezing, shortness of breath for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+32284,26970,Dengue fever,"Subjective:
+Patient reports joint pain, high fever for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected dengue fever.
+
+Assessment:
+Diagnosis: Dengue fever
+
+Plan:
+Prescribe dengue fever treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+33289,27797,Hypertension,"Subjective:
+Patient reports blurred vision, headache for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+2448,2045,Upper respiratory infection,"Subjective:
+Patient reports cough, runny nose for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+22858,19067,Asthma,"Subjective:
+Patient reports chest tightness, shortness of breath for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+12392,10369,Upper respiratory infection,"Subjective:
+Patient reports sore throat, cough for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+34042,28425,Upper respiratory infection,"Subjective:
+Patient reports runny nose, cough for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+56594,47229,Upper respiratory infection,"Subjective:
+Patient reports sore throat, cough for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+16030,13394,Asthma,"Subjective:
+Patient reports wheezing, shortness of breath for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+13066,10925,GERD,"Subjective:
+Patient reports heartburn, acid reflux for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected gerd.
+
+Assessment:
+Diagnosis: GERD
+
+Plan:
+Prescribe gerd treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+18637,15542,Hypertension,"Subjective:
+Patient reports headache, blurred vision for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+7032,5875,Asthma,"Subjective:
+Patient reports chest tightness, wheezing for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+20569,17146,Type 2 Diabetes,"Subjective:
+Patient reports fatigue, increased thirst for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+13996,11695,Asthma,"Subjective:
+Patient reports shortness of breath, wheezing for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+50500,42185,Flu,"Subjective:
+Patient reports fatigue, fever for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+20563,17141,Back pain,"Subjective:
+Patient reports lower back pain, stiffness for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+7509,6273,Type 2 Diabetes,"Subjective:
+Patient reports frequent urination, fatigue for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+16715,13959,Hypertension,"Subjective:
+Patient reports headache, blurred vision for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+5563,4641,Asthma,"Subjective:
+Patient reports wheezing, shortness of breath for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+37739,31517,Flu,"Subjective:
+Patient reports fever, body aches for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+41286,34484,Flu,"Subjective:
+Patient reports body aches, fever for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+56097,46802,Upper respiratory infection,"Subjective:
+Patient reports runny nose, cough for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+44368,37033,Hypertension,"Subjective:
+Patient reports dizziness, headache for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+38639,32282,Dengue fever,"Subjective:
+Patient reports muscle pain, joint pain for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected dengue fever.
+
+Assessment:
+Diagnosis: Dengue fever
+
+Plan:
+Prescribe dengue fever treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+56287,46961,Dengue fever,"Subjective:
+Patient reports joint pain, muscle pain for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected dengue fever.
+
+Assessment:
+Diagnosis: Dengue fever
+
+Plan:
+Prescribe dengue fever treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+3646,3044,Hypertension,"Subjective:
+Patient reports headache, blurred vision for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+12655,10585,Hypertension,"Subjective:
+Patient reports headache, blurred vision for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+14417,12052,Flu,"Subjective:
+Patient reports fatigue, body aches for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+1844,1535,Flu,"Subjective:
+Patient reports body aches, fever for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+58146,48505,Hypertension,"Subjective:
+Patient reports dizziness, headache for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+10479,8781,Flu,"Subjective:
+Patient reports fatigue, fever for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+52673,43981,GERD,"Subjective:
+Patient reports acid reflux, chest discomfort for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected gerd.
+
+Assessment:
+Diagnosis: GERD
+
+Plan:
+Prescribe gerd treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+43248,36109,Type 2 Diabetes,"Subjective:
+Patient reports increased thirst, fatigue for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+26882,22451,Flu,"Subjective:
+Patient reports fatigue, body aches for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+44225,36916,Asthma,"Subjective:
+Patient reports wheezing, chest tightness for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+37502,31319,Upper respiratory infection,"Subjective:
+Patient reports runny nose, cough for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+41927,35017,Upper respiratory infection,"Subjective:
+Patient reports runny nose, sore throat for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+23802,19861,Flu,"Subjective:
+Patient reports body aches, fever for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+53544,44689,Hypertension,"Subjective:
+Patient reports dizziness, blurred vision for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+8717,7284,Hypertension,"Subjective:
+Patient reports dizziness, blurred vision for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+58103,48470,Upper respiratory infection,"Subjective:
+Patient reports sore throat, cough for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+38425,32102,Upper respiratory infection,"Subjective:
+Patient reports runny nose, sore throat for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+20846,17367,Hypertension,"Subjective:
+Patient reports dizziness, blurred vision for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+47441,39620,Hypertension,"Subjective:
+Patient reports headache, dizziness for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+40590,33898,Asthma,"Subjective:
+Patient reports shortness of breath, chest tightness for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+46723,39019,Back pain,"Subjective:
+Patient reports stiffness, lower back pain for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+24309,20284,Flu,"Subjective:
+Patient reports fatigue, body aches for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+16108,13459,Hypertension,"Subjective:
+Patient reports blurred vision, dizziness for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+43454,36277,Flu,"Subjective:
+Patient reports fatigue, body aches for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+1237,1023,Hypertension,"Subjective:
+Patient reports dizziness, headache for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+27251,22753,Type 2 Diabetes,"Subjective:
+Patient reports frequent urination, increased thirst for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+39283,32820,UTI,"Subjective:
+Patient reports pelvic pain, frequent urination for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected uti.
+
+Assessment:
+Diagnosis: UTI
+
+Plan:
+Prescribe uti treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+56536,47177,Dengue fever,"Subjective:
+Patient reports high fever, muscle pain for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected dengue fever.
+
+Assessment:
+Diagnosis: Dengue fever
+
+Plan:
+Prescribe dengue fever treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+49859,41645,Upper respiratory infection,"Subjective:
+Patient reports sore throat, runny nose for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+17822,14874,Dengue fever,"Subjective:
+Patient reports joint pain, high fever for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected dengue fever.
+
+Assessment:
+Diagnosis: Dengue fever
+
+Plan:
+Prescribe dengue fever treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+48859,40794,Back pain,"Subjective:
+Patient reports stiffness, lower back pain for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+31430,26270,Dengue fever,"Subjective:
+Patient reports muscle pain, joint pain for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected dengue fever.
+
+Assessment:
+Diagnosis: Dengue fever
+
+Plan:
+Prescribe dengue fever treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+22701,18934,Upper respiratory infection,"Subjective:
+Patient reports cough, runny nose for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+21867,18221,Hypertension,"Subjective:
+Patient reports blurred vision, dizziness for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+8146,6809,Dengue fever,"Subjective:
+Patient reports high fever, joint pain for the past 1 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected dengue fever.
+
+Assessment:
+Diagnosis: Dengue fever
+
+Plan:
+Prescribe dengue fever treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+12257,10261,Back pain,"Subjective:
+Patient reports stiffness, lower back pain for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+51153,42734,Upper respiratory infection,"Subjective:
+Patient reports cough, runny nose for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected upper respiratory infection.
+
+Assessment:
+Diagnosis: Upper respiratory infection
+
+Plan:
+Prescribe upper respiratory infection treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+27297,22791,Back pain,"Subjective:
+Patient reports lower back pain, stiffness for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+46647,38953,Asthma,"Subjective:
+Patient reports shortness of breath, chest tightness for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected asthma.
+
+Assessment:
+Diagnosis: Asthma
+
+Plan:
+Prescribe asthma treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+43738,36514,Type 2 Diabetes,"Subjective:
+Patient reports frequent urination, increased thirst for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected type 2 diabetes.
+
+Assessment:
+Diagnosis: Type 2 Diabetes
+
+Plan:
+Prescribe type 2 diabetes treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+16852,14072,Hypertension,"Subjective:
+Patient reports dizziness, headache for the past 4 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+34706,28975,Flu,"Subjective:
+Patient reports fatigue, fever for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+38132,31856,Hypertension,"Subjective:
+Patient reports dizziness, blurred vision for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+16183,13521,Back pain,"Subjective:
+Patient reports lower back pain, stiffness for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+25565,21341,Flu,"Subjective:
+Patient reports fever, fatigue for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+26386,22035,Hypertension,"Subjective:
+Patient reports dizziness, blurred vision for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+36926,30838,Flu,"Subjective:
+Patient reports fever, fatigue for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected flu.
+
+Assessment:
+Diagnosis: Flu
+
+Plan:
+Prescribe flu treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+39973,33390,UTI,"Subjective:
+Patient reports pelvic pain, frequent urination for the past 2 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected uti.
+
+Assessment:
+Diagnosis: UTI
+
+Plan:
+Prescribe uti treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+52873,44142,Back pain,"Subjective:
+Patient reports lower back pain, stiffness for the past 3 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected back pain.
+
+Assessment:
+Diagnosis: Back pain
+
+Plan:
+Prescribe back pain treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
+6035,5038,Hypertension,"Subjective:
+Patient reports dizziness, headache for the past 5 days.
+
+Objective:
+Vital signs stable. Physical examination consistent with suspected hypertension.
+
+Assessment:
+Diagnosis: Hypertension
+
+Plan:
+Prescribe hypertension treatment. Advise rest and hydration.
+Follow-up if symptoms worsen."
