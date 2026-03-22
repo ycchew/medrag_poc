@@ -24,25 +24,73 @@ A Proof of Concept (PoC) RAG chatbot for a clinic group database. **Based on rea
 ### Data Privacy Notice
 This demo uses **synthetic patient data** - all records are computer-generated for demonstration purposes. No real patient information is used.
 
+### Deployment Options
+
+| Option | Best For | Setup Time |
+|--------|----------|------------|
+| **Railway** (Recommended) | Free cloud hosting, easy setup | 10 min |
+| **Docker** | Local development, full control | 15 min |
+| **Local** | Existing PostgreSQL database | 20 min |
+
 ### Prerequisites
-- Docker and Docker Compose installed
 - LLM API key (Qwen3.5 Plus or OpenAI)
+- GitHub account (for Railway)
 
-### Setup
+---
 
-1. **Start containers and run initialization**
-   ```bash
-   docker compose up -d --build
-   echo "y" | docker exec -i clinic_backend python scripts/init-me.py
-   # after finished setup, restart the containers
-   export LLM_API_KEY=<the key>
-   docker compose down
-   docker compose up -d --build
-   ```
+## Option 1: Railway Deployment (Free Cloud Hosting)
 
-2. **Access the application**
-   - Frontend: http://localhost:3000
-   - Backend API: http://localhost:8000/docs (Swagger)
+Railway offers free tier hosting with PostgreSQL + pgvector included.
+
+### 1. Fork and Connect
+
+1. Fork this repository on GitHub
+2. Create a free account at [Railway](https://railway.app/)
+3. Create new project → "Deploy from GitHub repo"
+4. Select your forked repository
+
+### 2. Add PostgreSQL Database
+
+1. In Railway project, click **"New"** → **"Database"** → **"Add PostgreSQL"**
+2. Railway automatically enables pgvector
+
+### 3. Configure Environment Variables
+
+In your app service **Variables** tab, add:
+
+| Variable | Value | Source |
+|----------|-------|--------|
+| `DATABASE_URL` | `${{Postgres.DATABASE_URL}}` | Reference |
+| `LLM_API_KEY` | `your_api_key` | Direct |
+| `LLM_API_URL` | `https://coding-intl.dashscope.aliyuncs.com` | Direct |
+| `LLM_MODEL` | `qwen3.5-plus` | Direct |
+
+### 4. Deploy
+
+Railway automatically deploys on push. Access your app at:
+- `https://your-app-name.up.railway.app/` - Frontend
+- `https://your-app-name.up.railway.app/health` - Health check
+
+### 5. Initialize Database (One-time)
+
+Use Railway CLI or Web Shell:
+
+```bash
+# Using Railway CLI
+railway login
+railway link
+railway run python scripts/import_csv_data_railway.py
+railway run python scripts/ingest_documents_railway.py
+```
+
+Or via Web Shell in Railway dashboard:
+1. Go to your app service → **"Shell"** tab
+2. Run: `python scripts/import_csv_data_railway.py`
+3. Run: `python scripts/ingest_documents_railway.py`
+
+---
+
+## Option 2: Docker (Local Development)
 
 ## Project Structure
 
@@ -51,6 +99,9 @@ This demo uses **synthetic patient data** - all records are computer-generated f
 ├── backend/              # FastAPI application
 │   ├── main.py          # API entry point
 │   ├── database.py      # DB connection + schema init
+│   ├── config.py        # Environment configuration
+│   ├── requirements.txt # Python dependencies
+│   ├── requirements.railway.txt # Slim deps for Railway
 │   └── services/
 │       ├── llm_client.py       # LLM API integration
 │       ├── rag_service.py      # RAG (chunking, embeddings, search)
@@ -62,12 +113,20 @@ This demo uses **synthetic patient data** - all records are computer-generated f
 │   ├── docs/           # Medical guidelines (ingested into RAG)
 │   └── sql/            # Synthetic clinic data (CSV files) - computer-generated for demo
 ├── scripts/            # Setup and ingestion scripts
-│   ├── init-me.py      # One-command initialization
-│   ├── import_csv_data.py
-│   ├── ingest_documents.py
+│   ├── init-me.py      # One-command initialization (Docker)
+│   ├── import_csv_data.py      # Docker version
+│   ├── import_csv_data_local.py    # Local PostgreSQL
+│   ├── import_csv_data_railway.py  # Railway PostgreSQL
+│   ├── ingest_documents.py       # Docker version
+│   ├── ingest_documents_local.py   # Local version
+│   ├── ingest_documents_railway.py # Railway version
 │   └── migrate_bm25.py
 ├── docker-compose.yml
-└── .env
+├── Dockerfile.railway   # Railway-specific Dockerfile
+├── railway.toml         # Railway deployment config
+├── RAILWAY_DEPLOYMENT.md # Detailed Railway guide
+├── README-LOCAL.md      # Local setup without Docker
+└── .env.example         # Environment template
 ```
 
 ## API Endpoints
@@ -98,3 +157,23 @@ This demo uses **synthetic patient data** - all records are computer-generated f
 | db | 5432 | PostgreSQL + pgvector |
 | backend | 8000 | FastAPI application |
 | frontend | 3000 | Nginx serving static HTML |
+
+## Local Setup (No Docker)
+
+For local development without Docker, see [README-LOCAL.md](README-LOCAL.md).
+
+## Environment Setup
+
+Copy `.env.example` to `.env` and fill in your values:
+
+```bash
+cp .env.example .env
+```
+
+Required variables:
+- `LLM_API_KEY` - Your Qwen/OpenAI API key
+- `DATABASE_URL` or individual `DATABASE_*` variables
+
+## License
+
+MIT License - See LICENSE file for details.
