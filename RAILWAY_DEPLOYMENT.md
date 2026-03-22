@@ -120,12 +120,17 @@ You should see the FastAPI Swagger UI.
 
 3. Run database initialization:
    ```bash
-   railway run psql -f data/sql/init_schema.sql
+   # get railway database url from public network then set env
+   set DATABASE_URL=postgresql://postgres:pgauLhDxPFbCVKciLCzZZHVfkgsfXyDH@turntable.proxy.rlwy.net:13768/railway
+   # railway run psql -f data/sql/init_schema.sql
+   psql %DATABASE_URL% -f data/sql/init_schema.sql
    ```
 
 4. Import data:
    ```bash
    railway run python scripts/import_csv_data_railway.py
+   # or with correct database_url set
+   python scripts/import_csv_data_railway.py
    ```
 
 ### Option B: Manual via Railway Console
