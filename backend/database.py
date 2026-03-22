@@ -1,11 +1,12 @@
 """
 Database connection pool and utilities for the Clinic AI Assistant.
 """
+
 import psycopg2
 from psycopg2 import pool
 from contextlib import contextmanager
 
-from config import DATABASE_CONFIG
+from config import DATABASE_CONFIG, DATABASE_URL
 
 
 class DBPool:
@@ -17,20 +18,32 @@ class DBPool:
     def get_pool(cls):
         """Get or create the connection pool."""
         if cls._pool is None:
-            cls._pool = psycopg2.pool.ThreadedConnectionPool(
-                minconn=2,
-                maxconn=10,
-                host=DATABASE_CONFIG["host"],
-                port=DATABASE_CONFIG["port"],
-                database=DATABASE_CONFIG["database"],
-                user=DATABASE_CONFIG["user"],
-                password=DATABASE_CONFIG["password"],
-                connect_timeout=5,
-                keepalives=1,
-                keepalives_idle=30,
-                keepalives_interval=10,
-                keepalives_count=5
-            )
+            if DATABASE_URL:
+                cls._pool = psycopg2.pool.ThreadedConnectionPool(
+                    minconn=2,
+                    maxconn=10,
+                    dsn=DATABASE_URL,
+                    connect_timeout=5,
+                    keepalives=1,
+                    keepalives_idle=30,
+                    keepalives_interval=10,
+                    keepalives_count=5,
+                )
+            else:
+                cls._pool = psycopg2.pool.ThreadedConnectionPool(
+                    minconn=2,
+                    maxconn=10,
+                    host=DATABASE_CONFIG["host"],
+                    port=DATABASE_CONFIG["port"],
+                    database=DATABASE_CONFIG["database"],
+                    user=DATABASE_CONFIG["user"],
+                    password=DATABASE_CONFIG["password"],
+                    connect_timeout=5,
+                    keepalives=1,
+                    keepalives_idle=30,
+                    keepalives_interval=10,
+                    keepalives_count=5,
+                )
         return cls._pool
 
     @classmethod
