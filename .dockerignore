@@ -1,14 +1,4 @@
-# Backend
-/backend
-/backend/*
-!.env
-
-# Frontend
-/frontend
-/frontend/*
-!.env
-
-# Python
+# Backend Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -42,3 +32,6 @@ var/
 # OS
 .DS_Store
 Thumbs.db
+
+# Data volumes (for local Docker)
+data/postgres/
