@@ -1,0 +1,18 @@
+# Railway Deployment Configuration
+# This file tells Railway how to deploy your application
+
+[build]
+# Use the Dockerfile in the backend directory
+dockerfilePath = "backend/Dockerfile"
+
+[deploy]
+# Start command (overrides Dockerfile CMD for Railway)
+startCommand = "uvicorn main:app --host 0.0.0.0 --port $PORT"
+
+# Health check path
+healthcheckPath = "/health"
+healthcheckTimeout = 300
+
+# Restart policy
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 3
