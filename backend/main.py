@@ -34,11 +34,8 @@ logger = logging.getLogger(__name__)
 # Initialize database
 init_db()
 
-# Pre-load embedding model to avoid delay on first request
-logger.info("Pre-loading embedding model...")
+# Import llm_client for health check
 from services.llm_client import llm_client
-
-logger.info("Embedding model ready")
 
 # Create FastAPI app
 app = FastAPI(
