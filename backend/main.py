@@ -46,21 +46,11 @@ app = FastAPI(
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allow all origins for development
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-import os
-
-# Serve static frontend files from /app/frontend (Railway deployment)
-frontend_path = "/app/frontend"
-if os.path.exists(frontend_path):
-    app.mount("/", StaticFiles(directory=frontend_path, html=True), name="frontend")
-elif os.path.exists("../frontend"):
-    # Fallback for local development
-    app.mount("/", StaticFiles(directory="../frontend", html=True), name="frontend")
 
 
 # Request/Response Models
@@ -337,6 +327,17 @@ async def chat(request: QueryRequest):
             source_documents=None,
             sql_query=result["sql_query"],
         )
+
+
+# Mount static frontend files AFTER all API routes are defined
+# This allows API routes to take precedence over static files
+import os
+
+frontend_path = "/app/frontend"
+if os.path.exists(frontend_path):
+    app.mount("/", StaticFiles(directory=frontend_path, html=True), name="frontend")
+elif os.path.exists("../frontend"):
+    app.mount("/", StaticFiles(directory="../frontend", html=True), name="frontend")
 
 
 if __name__ == "__main__":
